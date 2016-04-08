@@ -52,7 +52,10 @@
                     <div class="block">
                         <ul class="nav nav-tabs" data-toggle="tabs">
                             <li class="active">
-                                <a href="#search-escolaridad">TBD</a>
+                                <a href="#search-documentos">Lista de documentos</a>
+                            </li>
+                            <li class="pull-right">
+                                <a href="#btabs-alt-static-settings" data-toggle="tooltip" title="Opciones"><i class="si si-settings"></i></a>
                             </li>
                             <li class="pull-right">
                                 <ul class="block-options push-10-t push-10-r">
@@ -63,10 +66,81 @@
                             </li>
                         </ul>
                         <div class="block-content tab-content bg-white">
-
+                            <!-- Documentos -->
+                            <div class="tab-pane fade fade-up in active" id="search-documentos">
+                                <div class="border-b push-30">
+                                    <h2 class="push-10">2 <span class="h5 font-w400 text-muted">Documentos encontrados</span></h2>
+                                </div>
+                                <table class="table table-borderless table-vcenter table-header-bg table-condensed">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-center" style="width: 10%;">#</th>
+                                            <th style="width: 35%;">Nombre</th>
+                                            <th style="width: 40%;">Descripción</th>
+                                            <th class="text-center" style="width: 15%;">Descargar</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center">1</td>
+                                            <td>Nombre del documento</td>
+                                            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</td>
+                                            <td class="text-center">
+                                                <div class="btn-group">
+                                                    <button class="btn btn-lg btn-primary" type="button" data-toggle="tooltip" title="Descargar Word"><i class="fa fa-file-word-o"></i></button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">2</td>
+                                            <td>Nombre del documento</td>
+                                            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</td>
+                                            <td class="text-center">
+                                                <div class="btn-group">
+                                                    <button class="btn btn-lg btn-success" type="button" data-toggle="tooltip" title="Descargar Excel"><i class="fa fa-file-excel-o"></i></button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- END Documentos -->
+                            
+                            <!-- Settings -->
+                            <div class="tab-pane" id="btabs-alt-static-settings">
+                                <h4 class="font-w300 push-15">Opciones</h4>
+                                <div class="row">
+                                    <div class="col-md-2 col-md-offset-3">
+                                        <a class="block block-link-hover3 text-center" href="javascript:void(0)">
+                                            <div class="block-content block-content-full">
+                                                <i class="si si-list fa-4x text-primary"></i>
+                                                <div class="font-w600 push-15-t">Ordenar</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <a class="block block-link-hover3 text-center" href="javascript:void(0)">
+                                            <div class="block-content block-content-full">
+                                                <i class="si si-printer fa-4x text-primary"></i>
+                                                <div class="font-w600 push-15-t">Imprimir lista</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <a class="block block-link-hover3 text-center" href="editar">
+                                            <div class="block-content block-content-full">
+                                                <i class="si si-doc fa-4x text-primary"></i>
+                                                <div class="font-w600 push-15-t">Agregar Documento</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END Settings -->
                         </div>
                     </div>
-
                 </div>
                 <!-- END Page Content -->
             </main>
@@ -77,7 +151,6 @@
             <!-- END Footer -->
         </div>
         <!-- END Page Container -->
-
 
         <!-- OneUI Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js -->
         <?php include_once('../../../assets/zlib/oneuiCore.php'); ?>
@@ -106,14 +179,19 @@
         <script src="../../../assets/js/plugins/jquery-tags-input/jquery.tagsinput.min.js"></script>
 
         <!-- Page JS Code -->
+        <script src="../../../assets/js/pages/base_ui_chat.js"></script>
+
+        <!-- Page JS Code -->
         <script>
             $(function () {
                 // Init page helpers (BS Datepicker + BS Datetimepicker + BS Colorpicker + BS Maxlength + Select2 + Masked Input + Range Sliders + Tags Inputs plugins)
                 App.initHelpers(['datepicker', 'datetimepicker', 'colorpicker', 'maxlength', 'select2', 'masked-inputs', 'rangeslider', 'tags-inputs']);
             });
 
-            $('.mp1').addClass('open');
-            $('.ms1_3').addClass('active');
+            $(document).ready(function(){
+                $('.mp1').addClass('open');
+                $('.ms1_3').addClass('active');
+            });
         </script>
     </body>
 </html>

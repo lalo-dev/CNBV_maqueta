@@ -34,13 +34,14 @@
                     <div class="row items-push">
                         <div class="col-sm-7">
                             <h1 class="page-heading">
-                                Configuración <small>Actividades</small>
+                                Agregar documento <small>Planeación anual</small>
                             </h1>
                         </div>
                         <div class="col-sm-5 text-right hidden-xs">
                             <ol class="breadcrumb push-10-t">
-                                <li>Actividades</li>
-                                <li>Configuración</li>
+                                <li>Planeación anual</li>
+                                <li><a class="link-effect" href="../../planeacion-anual/semanas-hombre">Semanas hombre</a></li>
+                                <li>Agregar documento</li>
                             </ol>
                         </div>
                     </div>
@@ -52,7 +53,7 @@
                     <div class="block">
                         <ul class="nav nav-tabs" data-toggle="tabs">
                             <li class="active">
-                                <a href="#search-escolaridad">Actividades</a>
+                                <a href="#search-escolaridad">Lista de documentos</a>
                             </li>
                             <li class="pull-right">
                                 <ul class="block-options push-10-t push-10-r">
@@ -73,28 +74,44 @@
                                                 <button type="button" data-toggle="block-option" data-action="content_toggle"></button>
                                             </li>
                                         </ul>
-                                        <h3 class="block-title">Agregar</h3>
+                                        <h3 class="block-title">Agregar documento</h3>
                                     </div>
                                     <div class="block-content">
                                         <form class="form-horizontal push-10-t" action="#" method="post">
 
                                             <div class="form-group">
-                                                <div class="col-sm-5">
+                                                <div class="col-sm-12">
                                                     <div class="form-material form-material-primary floating">
-                                                        <input class="form-control input-sm" type="text" id="titulo" name="titulo">
-                                                        <label for="titulo">Actividad</label>
+                                                        <input class="form-control input-sm" type="text" id="nombre" name="nombre">
+                                                        <label for="nombre">Nombre</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-5">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="col-sm-12">
                                                     <div class="form-material form-material-primary floating">
-                                                        <input class="form-control input-sm" type="text" id="titulo" name="titulo">
-                                                        <label for="titulo">Descripción</label>
+                                                        <textarea class="form-control input-sm" id="actividades" name="actividades" rows="4"></textarea>
+                                                        <label for="actividades">Comentarios</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-2">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="col-sm-3">
                                                     <div class="form-material form-material-primary floating">
-                                                        <input class="form-control input-sm" type="text" id="titulo" name="titulo">
-                                                        <label for="titulo">Horas</label>
+                                                        <select class="form-control input-sm" id="estatus" name="estatus">
+                                                            <option></option>
+                                                            <option value="1">Word</option>
+                                                            <option value="2">Excel</option>
+                                                        </select>
+                                                        <label for="estatus">Tipo</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-9">
+                                                    <label class="col-sm-12" for="example-file-input">Archivo adjunto</label>
+                                                    <div class="col-sm-12">
+                                                        <input type="file" id="example-file-input" name="example-file-input">
                                                     </div>
                                                 </div>
                                             </div>
@@ -114,24 +131,35 @@
                                 <!-- Lista -->
                                 <div class="table-responsive">
                                     <div class="border-b push-30">
-                                        <h2 class="push-10">3 <span class="h5 font-w400 text-muted">Elementos encontrados</span></h2>
+                                        <h2 class="push-10">2 <span class="h5 font-w400 text-muted">Elementos encontrados</span></h2>
                                     </div>
                                     <table class="table table-striped table-vcenter table-condensed">
                                         <thead>
                                             <tr>
                                                 <th class="text-center">#</th>
-                                                <th class="text-left">Actividad</th>
-                                                <th class="text-left">Descripción</th>
-                                                <th class="text-center">Horas por defecto</th>
+                                                <th class="text-left">Nombre</th>
+                                                <th class="text-left">Comentarios</th>
+                                                <th class="text-center">Tipo</th>
+                                                <th class="text-center">Archivo</th>
+                                                <th class="text-center">Fecha</th>
                                                 <th class="text-center">Acciones</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="text-center">1</td>
-                                                <td>Nombre de la actividad</td>
-                                                <td>Descripción de la actividad</td>
-                                                <td class="text-center">4</td>
+                                                <td>1</td>
+                                                <td class="text-left">Nombre del documento</td>
+                                                <td class="text-left">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                </td>
+                                                <td class="text-center">Word</td>
+                                                <td class="text-center">normativaDoc.docx</td>
+                                                <td class="text-center">12-12-16</td>
                                                 <td class="text-center">
                                                     <div class="btn-group">
                                                         <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
@@ -144,26 +172,19 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="text-center">2</td>
-                                                <td>Nombre de la actividad</td>
-                                                <td>Descripción de la actividad</td>
-                                                <td class="text-center">4</td>
-                                                <td class="text-center">
-                                                    <div class="btn-group">
-                                                        <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
-                                                            <i class="fa fa-pencil"></i>
-                                                        </a>
-                                                        <button class="btn btn-danger btn-xs" type="button" data-toggle="tooltip" data-placement="top" title="Eliminar">
-                                                            <i class="fa fa-times"></i>
-                                                        </button>
-                                                    </div>
+                                                <td>2</td>
+                                                <td class="text-left">Nombre del documento</td>
+                                                <td class="text-left">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                                 </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center">3</td>
-                                                <td>Nombre de la actividad</td>
-                                                <td>Descripción de la actividad</td>
-                                                <td class="text-center">4</td>
+                                                <td class="text-center">Excel</td>
+                                                <td class="text-center">normativaDoc.docx</td>
+                                                <td class="text-center">12-12-16</td>
                                                 <td class="text-center">
                                                     <div class="btn-group">
                                                         <a class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="top" title="Editar" href="#">
@@ -229,9 +250,10 @@
                 App.initHelpers(['datepicker', 'datetimepicker', 'colorpicker', 'maxlength', 'select2', 'masked-inputs', 'rangeslider', 'tags-inputs']);
             });
 
-
-            $('.mp7').addClass('open');
-            $('.ms7_4').addClass('active');
+            $(document).ready(function(){
+                $('.mp1').addClass('open');
+                $('.ms1_4').addClass('active');
+            });
         </script>
     </body>
 </html>

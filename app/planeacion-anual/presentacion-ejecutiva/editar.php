@@ -34,12 +34,12 @@
                     <div class="row items-push">
                         <div class="col-sm-7">
                             <h1 class="page-heading">
-                                Agregar documento <small>AAI</small>
+                                Agregar documento <small>Presentación ejecutiva</small>
                             </h1>
                         </div>
                         <div class="col-sm-5 text-right hidden-xs">
                             <ol class="breadcrumb push-10-t">
-                                <li>Normativa</li>
+                                <li>Planeación anual</li>
                                 <li><a class="link-effect" href="../../planeacion-anual/presentacion-ejecutiva">Presentación ejecutiva</a></li>
                                 <li>Agregar documento</li>
                             </ol>

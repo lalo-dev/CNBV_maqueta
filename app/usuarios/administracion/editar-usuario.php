@@ -1,3 +1,6 @@
+<?php
+	require_once "../../../assets/php/includes/comun.php";
+?>
 <!DOCTYPE html>
 <!--[if IE 9]>         <html class="ie9 no-focus"> <![endif]-->
 <!--[if gt IE 9]><!--> <html class="no-focus"> <!--<![endif]-->
@@ -88,15 +91,29 @@
                                     <h2 class="push-10">5 <span class="h5 font-w400 text-muted">Usuarios encontrados</span></h2>
                                 </div>
                     
-                                <form class="js-validation-material form-horizontal push-10-t" action="#" method="post">
+                                <form id="frm_usuario_datos_generales" name="frm_usuario_datos_generales" class="js-validation-material form-horizontal push-10-t" action="" method="post">
                                     <fieldset>
                                         <legend>Datos generales</legend>
-
+                                        <div id="dib_borrar"></div>
                                         <div class="form-group">
                                             <div class="col-sm-3">
                                                 <div class="form-material form-material-primary floating">
-                                                    <input class="form-control input-sm" type="text" id="val1" name="val1" value="006">
-                                                    <label for="val1">#</label>
+                                                    <input class="form-control input-sm" type="text" id="id_usuario" name="id_usuario" value="006">
+                                                    <label for="val1">Numero de Usuario</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-material form-material-primary floating">
+                                                    <input class="form-control input-sm" type="text" id="usuario" name="usuario" value="">
+                                                    <label for="val1">Usario</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-material form-material-primary floating">
+                                                    <input class="form-control input-sm" type="password" id="contrasenia" name="contrasenia" value="">
+                                                    <label for="val1">Contraseña</label>
                                                 </div>
                                             </div>
                                         </div>
@@ -104,19 +121,19 @@
                                         <div class="form-group">
                                             <div class="col-sm-4">
                                                 <div class="form-material form-material-primary floating">
-                                                    <input class="form-control input-sm" type="text" id="val4" name="val4">
+                                                    <input class="form-control input-sm" type="text" id="nombre" name="nombre">
                                                     <label for="val4">Nombre</label>
                                                 </div>
                                             </div>
                                             <div class="col-sm-4">
                                                 <div class="form-material form-material-primary floating">
-                                                    <input class="form-control input-sm" type="text" id="val5" name="val5">
+                                                    <input class="form-control input-sm" type="text" id="apellido_paterno" name="apellido_paterno">
                                                     <label for="val5">Apellido Paterno</label>
                                                 </div>
                                             </div>
                                             <div class="col-sm-4">
                                                 <div class="form-material form-material-primary floating">
-                                                    <input class="form-control input-sm" type="text" id="val6" name="val6">
+                                                    <input class="form-control input-sm" type="text" id="apellido_materno" name="apellido_materno">
                                                     <label for="val6">Apellido Materno</label>
                                                 </div>
                                             </div>
@@ -130,7 +147,7 @@
                                             </div>
                                             <div class="col-sm-1">
                                                 <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="dia" name="dia">
+                                                    <select class="form-control input-sm" id="dia_nacimiento" name="dia_nacimiento">
                                                         <option></option>
                                                         <option value="e1">1</option>
                                                         <option value="e2">2</option>
@@ -148,7 +165,7 @@
                                             </div>
                                             <div class="col-sm-1">
                                                 <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="mes" name="mes">
+                                                    <select class="form-control input-sm" id="mes_nacimiento" name="mes_nacimiento">
                                                         <option></option>
                                                         <option value="f1">1</option>
                                                         <option value="f2">2</option>
@@ -168,7 +185,7 @@
                                             </div>
                                             <div class="col-sm-2">
                                                 <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="ona" name="ona">
+                                                    <select class="form-control input-sm" id="anio_nacimiento" name="anio_nacimiento">
                                                         <option></option>
                                                         <option value="g1">2000</option>
                                                         <option value="g2">1999</option>
@@ -190,8 +207,8 @@
                                                 <div class="form-material form-material-primary floating">
                                                     <select class="form-control input-sm" id="sexo" name="sexo">
                                                         <option></option>
-                                                        <option value="c1">Femenino</option>
-                                                        <option value="c2">Masculino</option>
+                                                        <option value="f">Femenino</option>
+                                                        <option value="m">Masculino</option>
                                                     </select>
                                                     <label for="sexo">Sexo</label>
                                                 </div>
@@ -211,15 +228,15 @@
                                         <div class="form-group">
                                             <div class="col-sm-3">
                                                 <div class="form-material form-material-primary floating">
-                                                    <input class="form-control input-sm" type="text" id="val2" name="val2" value="6">
+                                                    <input class="form-control input-sm" type="text" id="numero_expediente" name="numero_expediente" value="---">
                                                     <label for="val2">No. Expediente</label>
                                                 </div>
                                             </div>
                                             <div class="col-sm-6">
                                                 <div class="form-material form-material-primary floating">
-                                                    <select class="form-control input-sm" id="val3" name="val3">
+                                                    <select class="form-control input-sm" id="id_area" name="id_area">
                                                         <option></option>
-                                                        <option selected value="oic">Organo Interno de Control</option>
+                                                        <option value="oic">Organo Interno de Control</option>
                                                         <option value="aai">Área de Auditoria Interna</option>
                                                         <option value="aadmgp">AADMGP</option>
                                                         <option value="aqyr">AQyR</option>
@@ -240,9 +257,9 @@
                                     <div class="form-group">
                                         <div class="col-sm-6">
                                             <div class="form-material form-material-primary floating">
-                                                <select class="form-control input-sm" id="val7" name="val7">
+                                                <select class="form-control input-sm" id="id_cargo" name="id_cargo">
                                                     <option></option>
-                                                    <option selected value="toic">Titular del OIC</option>
+                                                    <option value="toic">Titular del OIC</option>
                                                     <option value="ad">Apoyo administrativo</option>
                                                 </select>
                                                 <label for="val7">Cargo</label>
@@ -250,7 +267,7 @@
                                         </div>
                                         <div class="col-sm-4">
                                             <div class="form-material form-material-primary floating">
-                                                <select class="form-control input-sm" id="val8" name="val8">
+                                                <select class="form-control input-sm" id="id_nivel" name="id_nivel">
                                                     <option></option>
                                                     <option value="a1">Presidente</option>
                                                     <option selected value="a2">Vicepresidente</option>
@@ -266,7 +283,7 @@
                                         </div>
                                         <div class="col-sm-2">
                                             <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" value="NA1" id="val9" name="val9">
+                                                <input class="form-control input-sm" type="text" value="" id="codigo" name="codigo">
                                                 <label for="val9">Cod</label>
                                             </div>
                                         </div>
@@ -275,10 +292,10 @@
                                     <div class="form-group">
                                         <div class="col-sm-4">
                                             <div class="form-material form-material-primary floating">
-                                                <select class="form-control input-sm" id="val10" name="val10">
+                                                <select class="form-control input-sm" id="id_estatus" name="id_estatus">
                                                     <option></option>
                                                     <option value="h1">Operativo</option>
-                                                    <option selected value="h2">SPC</option>
+                                                    <option value="h2">SPC</option>
                                                     <option value="h3">Nombramiento directo</option>
                                                 </select>
                                                 <label for="val10">Estatus</label>
@@ -286,29 +303,29 @@
                                         </div>
                                         <div class="col-sm-3">
                                             <div class="form-material form-material-primary floating">
-                                                <select class="form-control input-sm" id="codigopuesto" name="codigopuesto">
+                                                <select class="form-control input-sm" id="id_codigo_puesto" name="id_codigo_puesto">
                                                     <option></option>
-                                                    <option selected value="i1">xxxxxxx</option>
-                                                    <option value="i2">xxxxxxx</option>
-                                                    <option value="i3">xxxxxxx</option>
+                                                    <option value="i1">i1</option>
+                                                    <option value="i2">i2</option>
+                                                    <option value="i3">i3</option>
                                                 </select>
                                                 <label for="codigopuesto">Codigo puesto</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-3">
                                             <div class="form-material form-material-primary floating">
-                                                <select class="form-control input-sm" id="nivel" name="nivel">
+                                                <select class="form-control input-sm" id="id_grado" name="id_grado">
                                                     <option></option>
-                                                    <option selected value="b1">Licenciado</option>
+                                                    <option value="b1">Licenciado</option>
                                                     <option value="b2">Maestro</option>
                                                     <option value="b3">Doctor</option>
                                                 </select>
-                                                <label for="nivel">Grado</label>
+                                                <label for="grado">Grado</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-1">
                                             <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" value="Lic" id="codnivel" name="codnivel">
+                                                <input class="form-control input-sm" type="text" value="" id="cod_nivel" name="cod_nivel">
                                                 <label for="codnivel">Cod</label>
                                             </div>
                                         </div>
@@ -322,7 +339,7 @@
                                         </div>
                                         <div class="col-sm-1">
                                             <div class="form-material form-material-primary floating">
-                                                <select class="form-control input-sm" id="dia" name="dia">
+                                                <select class="form-control input-sm" id="dia_nacimiento" name="dia_nacimiento">
                                                     <option></option>
                                                     <option value="e1">1</option>
                                                     <option value="e2">2</option>
@@ -340,7 +357,7 @@
                                         </div>
                                         <div class="col-sm-1">
                                             <div class="form-material form-material-primary floating">
-                                                <select class="form-control input-sm" id="mes" name="mes">
+                                                <select class="form-control input-sm" id="mes_nacimiento" name="mes_nacimiento">
                                                     <option></option>
                                                     <option value="f1">1</option>
                                                     <option value="f2">2</option>
@@ -360,7 +377,7 @@
                                         </div>
                                         <div class="col-sm-2">
                                             <div class="form-material form-material-primary floating">
-                                                <select class="form-control input-sm" id="ona" name="ona">
+                                                <select class="form-control input-sm" id="anio_nacimiento" name="anio_nacimiento">
                                                     <option></option>
                                                     <option value="g1">2000</option>
                                                     <option value="g2">1999</option>
@@ -405,13 +422,13 @@
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="lugar" name="lugar">
+                                                <input class="form-control input-sm" type="text" id="lugar_nacimiento" name="lugar_nacimiento">
                                                 <label for="lugar">Lugar de nacimiento</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-3">
                                             <div class="form-material form-material-primary floating">
-                                                <select class="form-control input-sm" id="nacionalidad" name="nacionalidad">
+                                                <select class="form-control input-sm" id="id_nacionalidad" name="id_nacionalidad">
                                                     <option></option>
                                                     <option value="mex">Mexicano</option>
                                                     <option value="can">Candiense</option>
@@ -424,25 +441,25 @@
                                     <div class="form-group">
                                         <div class="col-sm-2">
                                             <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="ini" name="ini">
+                                                <input class="form-control input-sm" type="text" id="iniciales" name="iniciales">
                                                 <label for="ini">Iniciales</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-3">
                                             <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="ccnbv" name="ccnbv">
+                                                <input class="form-control input-sm" type="text" id="correo_cnbv" name="correo_cnbv">
                                                 <label for="ccnbv">Correo electronico CNBV</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-4">
                                             <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="cpersonal" name="cpersonal">
+                                                <input class="form-control input-sm" type="text" id="correo_personal" name="correo_personal">
                                                 <label for="cpersonal">Correo electronico personal</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-3">
                                             <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="celular" name="celular">
+                                                <input class="form-control input-sm" type="text" id="telefono_celular" name="telefono_celular">
                                                 <label for="celular">Celular</label>
                                             </div>
                                         </div>
@@ -451,19 +468,19 @@
                                     <div class="form-group">
                                         <div class="col-sm-3">
                                             <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="tel" name="tel">
+                                                <input class="form-control input-sm" type="text" id="telefono_fijo" name="telefono_fijo">
                                                 <label for="tel">Teléfono</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-7">
                                             <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="dir" name="dir">
+                                                <input class="form-control input-sm" type="text" id="direccion" name="direccion">
                                                 <label for="dir">Dirección</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-2">
                                             <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="ext" name="ext">
+                                                <input class="form-control input-sm" type="text" id="extencion" name="extencion">
                                                 <label for="ext">Extención</label>
                                             </div>
                                         </div>
@@ -484,13 +501,13 @@
                                         </div>
                                         <div class="col-sm-2">
                                             <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="coo" name="coo">
+                                                <input class="form-control input-sm" type="text" id="coordenada" name="coordenada">
                                                 <label for="coo">Coordenada</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-2">
                                             <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="ced" name="ced">
+                                                <input class="form-control input-sm" type="text" id="cedula" name="cedula">
                                                 <label for="ced">Cedula</label>
                                             </div>
                                         </div>
@@ -500,18 +517,18 @@
                                         <div class="col-sm-5">
                                             <label class="col-sm-12" for="example-file-input">Curriculum</label>
                                             <div class="col-sm-12">
-                                                <input type="file" id="example-file-input" name="example-file-input">
+                                                <input type="file" id="input-file-curriculum" name="input-file-curriculum">
                                             </div>
                                         </div>
                                         <div class="col-sm-5">
                                             <label class="col-sm-12" for="example-file-input">Perfil de puesto</label>
                                             <div class="col-sm-12">
-                                                <input type="file" id="example-file-input" name="example-file-input">
+                                                <input type="file" id="example-file-perfil" name="input-file-perfil">
                                             </div>
                                         </div>
                                         <div class="col-sm-2">
                                             <div class="form-material form-material-primary floating">
-                                                <select class="form-control input-sm" id="val-skill4" name="civil">
+                                                <select class="form-control input-sm" id="id_estado_civil" name="id_estado_civil">
                                                     <option></option>
                                                     <option value="1">Casado(a)</option>
                                                     <option value="2">Soltero(a)</option>
@@ -527,28 +544,30 @@
                                     <div class="form-group">
                                         <div class="col-sm-2">
                                             <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="des" name="des">
+                                                <input class="form-control input-sm" type="text" id="desempenio" name="desempenio">
                                                 <label for="des">Desempeño</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-5">
                                             <label class="col-sm-12" for="example-file-input">Documento del desempeño</label>
                                             <div class="col-sm-12">
-                                                <input type="file" id="example-file-input" name="example-file-input">
+                                                <input type="file" id="input-file-desempenio" name="input-file-desempenio">
                                             </div>
                                         </div>
                                         <div class="col-sm-5">
                                             <label class="col-sm-12" for="example-file-input">Fotografía</label>
                                             <div class="col-sm-12">
-                                                <input type="file" id="example-file-input" name="example-file-input">
+                                                <input type="file" id="input-file-fotografia" name="input-file-fotografia">
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <div class="col-xs-12">
-                                            <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
-                                            <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
+                                        	<input type="hidden" id="accion" name="accion" value="guardar">
+                                        	<input type="hidden" id="id" name="id" value="0">
+                                            <button type="button" id="btn_guardar_datos_generales" name="btn_guardar_datos_generales" class="btn btn-sm btn-primary">Guardar</button>
+                                            <button type="reset" class="btn btn-sm btn-default">Cancelar</button>
                                         </div>
                                     </div>
                                 </form>
@@ -567,7 +586,7 @@
                                         <h3 class="block-title">Agregar escolaridad</h3>
                                     </div>
                                     <div class="block-content">
-                                        <form class="form-horizontal push-10-t" action="#" method="post">
+                                        <form id="frm_usuario_datos_escolaridad" name="frm_usuario_datos_escolaridad" class="form-horizontal push-10-t" action="" method="post">
 
                                             <div class="form-group">
                                                 <div class="col-sm-6">
@@ -602,7 +621,7 @@
                                                 </div>
                                                 <div class="col-sm-1">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="dia" name="dia">
+                                                        <select class="form-control input-sm" id="desde_dia" name="desde_dia">
                                                             <option></option>
                                                             <option value="e1">1</option>
                                                             <option value="e2">2</option>
@@ -620,7 +639,7 @@
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="mes" name="mes">
+                                                        <select class="form-control input-sm" id="desde_mes" name="desde_mes">
                                                             <option></option>
                                                             <option value="f1">1</option>
                                                             <option value="f2">2</option>
@@ -640,7 +659,7 @@
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="ona" name="ona">
+                                                        <select class="form-control input-sm" id="desde_anio" name="desde_anio">
                                                             <option></option>
                                                             <option value="g1">2000</option>
                                                             <option value="g2">1999</option>
@@ -665,7 +684,7 @@
                                                 </div>
                                                 <div class="col-sm-1">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="dia" name="dia">
+                                                        <select class="form-control input-sm" id="hasta_dia" name="hasta_dia">
                                                             <option></option>
                                                             <option value="e1">1</option>
                                                             <option value="e2">2</option>
@@ -683,7 +702,7 @@
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="mes" name="mes">
+                                                        <select class="form-control input-sm" id="hasta_mes" name="hasta_mes">
                                                             <option></option>
                                                             <option value="f1">1</option>
                                                             <option value="f2">2</option>
@@ -703,7 +722,7 @@
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="ona" name="ona">
+                                                        <select class="form-control input-sm" id="hasta_anio" name="hasta_hasta">
                                                             <option></option>
                                                             <option value="g1">2000</option>
                                                             <option value="g2">1999</option>
@@ -726,7 +745,7 @@
                                             <div class="form-group">
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="val10" name="val10">
+                                                        <select class="form-control input-sm" id="anios" name="anios">
                                                             <option></option>
                                                             <option value="1">10</option>
                                                             <option value="2">9</option>
@@ -744,7 +763,7 @@
                                                 </div>
                                                 <div class="col-sm-5">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="doc" name="doc">
+                                                        <select class="form-control input-sm" id="documento_obtenido" name="documento_obtenido">
                                                             <option></option>
                                                             <option value="i1">Título</option>
                                                             <option value="i2">Cédula</option>
@@ -768,7 +787,7 @@
 
                                             <div class="form-group">
                                                 <div class="col-xs-12">
-                                                    <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
+                                                    <button type="button" id="btn_guardar_datos_escolaridad" name="btn_guardar_datos_escolaridad" class="btn btn-sm btn-primary">Guardar</button>
                                                     <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
                                                 </div>
                                             </div>
@@ -1776,6 +1795,8 @@
         <script src="../../../assets/js/plugins/ion-rangeslider/js/ion.rangeSlider.min.js"></script>
         <script src="../../../assets/js/plugins/dropzonejs/dropzone.min.js"></script>
         <script src="../../../assets/js/plugins/jquery-tags-input/jquery.tagsinput.min.js"></script>
+        
+        <script src="../../../assets/js/cnbv-editar-usuario.js"></script>
 
         <!-- Page JS Code -->
         <script>

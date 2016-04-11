@@ -115,12 +115,11 @@
 								'1',
 								SYSDATE()
 							)";
-// 				die($query);
 				$resultado = "";
 				if(mysqli_query($conn,$query)) {
-					echo "exito";
+					echo mysqli_insert_id($conn);
 				} else {
-					echo $query;
+					echo "0";
 				}
 				
 			break;

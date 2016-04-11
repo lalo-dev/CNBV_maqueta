@@ -94,7 +94,6 @@
                                 <form id="frm_usuario_datos_generales" name="frm_usuario_datos_generales" class="js-validation-material form-horizontal push-10-t" action="" method="post">
                                     <fieldset>
                                         <legend>Datos generales</legend>
-                                        <div id="dib_borrar"></div>
                                         <div class="form-group">
                                             <div class="col-sm-3">
                                                 <div class="form-material form-material-primary floating">
@@ -149,16 +148,16 @@
                                                 <div class="form-material form-material-primary floating">
                                                     <select class="form-control input-sm" id="dia_nacimiento" name="dia_nacimiento">
                                                         <option></option>
-                                                        <option value="e1">1</option>
-                                                        <option value="e2">2</option>
-                                                        <option value="e3">3</option>
-                                                        <option value="e4">4</option>
-                                                        <option value="e5">5</option>
-                                                        <option value="e6">6</option>
-                                                        <option value="e7">7</option>
-                                                        <option value="e8">8</option>
-                                                        <option value="e9">9</option>
-                                                        <option value="e10">10</option>
+                                                        <option value="01">1</option>
+                                                        <option value="02">2</option>
+                                                        <option value="03">3</option>
+                                                        <option value="04">4</option>
+                                                        <option value="05">5</option>
+                                                        <option value="06">6</option>
+                                                        <option value="07">7</option>
+                                                        <option value="08">8</option>
+                                                        <option value="09">9</option>
+                                                        <option value="10">10</option>
                                                     </select>
                                                     <label for="dia">Día</label>
                                                 </div>
@@ -167,18 +166,18 @@
                                                 <div class="form-material form-material-primary floating">
                                                     <select class="form-control input-sm" id="mes_nacimiento" name="mes_nacimiento">
                                                         <option></option>
-                                                        <option value="f1">1</option>
-                                                        <option value="f2">2</option>
-                                                        <option value="f3">3</option>
-                                                        <option value="f4">4</option>
-                                                        <option value="f5">5</option>
-                                                        <option value="f6">6</option>
-                                                        <option value="f7">7</option>
-                                                        <option value="f8">8</option>
-                                                        <option value="f9">9</option>
-                                                        <option value="f10">10</option>
-                                                        <option value="f11">11</option>
-                                                        <option value="f12">12</option>
+                                                        <option value="01">1</option>
+                                                        <option value="02">2</option>
+                                                        <option value="03">3</option>
+                                                        <option value="04">4</option>
+                                                        <option value="05">5</option>
+                                                        <option value="06">6</option>
+                                                        <option value="07">7</option>
+                                                        <option value="08">8</option>
+                                                        <option value="09">9</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
                                                     </select>
                                                     <label for="mes">Mes</label>
                                                 </div>
@@ -187,18 +186,18 @@
                                                 <div class="form-material form-material-primary floating">
                                                     <select class="form-control input-sm" id="anio_nacimiento" name="anio_nacimiento">
                                                         <option></option>
-                                                        <option value="g1">2000</option>
-                                                        <option value="g2">1999</option>
-                                                        <option value="g3">1998</option>
-                                                        <option value="g4">1997</option>
-                                                        <option value="g5">1996</option>
-                                                        <option value="g6">1995</option>
-                                                        <option value="g7">1994</option>
-                                                        <option value="g8">1993</option>
-                                                        <option value="g9">1992</option>
-                                                        <option value="g10">1991</option>
-                                                        <option value="g11">1990</option>
-                                                        <option value="g12">1989</option>
+                                                        <option value="2000">2000</option>
+                                                        <option value="1999">1999</option>
+                                                        <option value="1998">1998</option>
+                                                        <option value="1997">1997</option>
+                                                        <option value="1996">1996</option>
+                                                        <option value="1995">1995</option>
+                                                        <option value="1994">1994</option>
+                                                        <option value="1993">1993</option>
+                                                        <option value="1992">1992</option>
+                                                        <option value="1991">1991</option>
+                                                        <option value="1990">1990</option>
+                                                        <option value="1989">1989</option>
                                                     </select>
                                                     <label for="ona">Año</label>
                                                 </div>
@@ -236,10 +235,10 @@
                                                 <div class="form-material form-material-primary floating">
                                                     <select class="form-control input-sm" id="id_area" name="id_area">
                                                         <option></option>
-                                                        <option value="oic">Organo Interno de Control</option>
-                                                        <option value="aai">Área de Auditoria Interna</option>
-                                                        <option value="aadmgp">AADMGP</option>
-                                                        <option value="aqyr">AQyR</option>
+                                                        <option value="1">Organo Interno de Control</option>
+                                                        <option value="2">Área de Auditoria Interna</option>
+                                                        <option value="3">AADMGP</option>
+                                                        <option value="4">AQyR</option>
                                                     </select>
                                                     <label for="val3">Área</label>
                                                 </div>
@@ -259,8 +258,8 @@
                                             <div class="form-material form-material-primary floating">
                                                 <select class="form-control input-sm" id="id_cargo" name="id_cargo">
                                                     <option></option>
-                                                    <option value="toic">Titular del OIC</option>
-                                                    <option value="ad">Apoyo administrativo</option>
+                                                    <option value="1">Titular del OIC</option>
+                                                    <option value="1">Apoyo administrativo</option>
                                                 </select>
                                                 <label for="val7">Cargo</label>
                                             </div>
@@ -269,14 +268,14 @@
                                             <div class="form-material form-material-primary floating">
                                                 <select class="form-control input-sm" id="id_nivel" name="id_nivel">
                                                     <option></option>
-                                                    <option value="a1">Presidente</option>
-                                                    <option selected value="a2">Vicepresidente</option>
-                                                    <option value="a3">Director general adjunto</option>
-                                                    <option value="a4">Director de área</option>
-                                                    <option value="a5">Subdirector de área</option>
-                                                    <option value="a6">Jefe de departamento</option>
-                                                    <option value="a7">Operativo</option>
-                                                    <option value="a8">Honorarios</option>
+                                                    <option value="1">Presidente</option>
+                                                    <option value="2">Vicepresidente</option>
+                                                    <option value="3">Director general adjunto</option>
+                                                    <option value="4">Director de área</option>
+                                                    <option value="5">Subdirector de área</option>
+                                                    <option value="6">Jefe de departamento</option>
+                                                    <option value="7">Operativo</option>
+                                                    <option value="8">Honorarios</option>
                                                 </select>
                                                 <label for="val8">Nivel</label>
                                             </div>
@@ -294,9 +293,9 @@
                                             <div class="form-material form-material-primary floating">
                                                 <select class="form-control input-sm" id="id_estatus" name="id_estatus">
                                                     <option></option>
-                                                    <option value="h1">Operativo</option>
-                                                    <option value="h2">SPC</option>
-                                                    <option value="h3">Nombramiento directo</option>
+                                                    <option value="1">Operativo</option>
+                                                    <option value="2">SPC</option>
+                                                    <option value="3">Nombramiento directo</option>
                                                 </select>
                                                 <label for="val10">Estatus</label>
                                             </div>
@@ -305,9 +304,9 @@
                                             <div class="form-material form-material-primary floating">
                                                 <select class="form-control input-sm" id="id_codigo_puesto" name="id_codigo_puesto">
                                                     <option></option>
-                                                    <option value="i1">i1</option>
-                                                    <option value="i2">i2</option>
-                                                    <option value="i3">i3</option>
+                                                    <option value="1">i1</option>
+                                                    <option value="2">i2</option>
+                                                    <option value="3">i3</option>
                                                 </select>
                                                 <label for="codigopuesto">Codigo puesto</label>
                                             </div>
@@ -316,9 +315,9 @@
                                             <div class="form-material form-material-primary floating">
                                                 <select class="form-control input-sm" id="id_grado" name="id_grado">
                                                     <option></option>
-                                                    <option value="b1">Licenciado</option>
-                                                    <option value="b2">Maestro</option>
-                                                    <option value="b3">Doctor</option>
+                                                    <option value="1">Licenciado</option>
+                                                    <option value="2">Maestro</option>
+                                                    <option value="3">Doctor</option>
                                                 </select>
                                                 <label for="grado">Grado</label>
                                             </div>
@@ -331,87 +330,87 @@
                                         </div>
                                     </div>
 
-                                    <div class="form-group">
-                                        <div class="col-sm-3">
-                                            <div class="form-material form-material-primary floating">
-                                                <label for="fdn">Fecha de nacimiento</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-1">
-                                            <div class="form-material form-material-primary floating">
-                                                <select class="form-control input-sm" id="dia_nacimiento" name="dia_nacimiento">
-                                                    <option></option>
-                                                    <option value="e1">1</option>
-                                                    <option value="e2">2</option>
-                                                    <option value="e3">3</option>
-                                                    <option value="e4">4</option>
-                                                    <option value="e5">5</option>
-                                                    <option value="e6">6</option>
-                                                    <option value="e7">7</option>
-                                                    <option value="e8">8</option>
-                                                    <option value="e9">9</option>
-                                                    <option value="e10">10</option>
-                                                </select>
-                                                <label for="dia">Día</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-1">
-                                            <div class="form-material form-material-primary floating">
-                                                <select class="form-control input-sm" id="mes_nacimiento" name="mes_nacimiento">
-                                                    <option></option>
-                                                    <option value="f1">1</option>
-                                                    <option value="f2">2</option>
-                                                    <option value="f3">3</option>
-                                                    <option value="f4">4</option>
-                                                    <option value="f5">5</option>
-                                                    <option value="f6">6</option>
-                                                    <option value="f7">7</option>
-                                                    <option value="f8">8</option>
-                                                    <option value="f9">9</option>
-                                                    <option value="f10">10</option>
-                                                    <option value="f11">11</option>
-                                                    <option value="f12">12</option>
-                                                </select>
-                                                <label for="mes">Mes</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-2">
-                                            <div class="form-material form-material-primary floating">
-                                                <select class="form-control input-sm" id="anio_nacimiento" name="anio_nacimiento">
-                                                    <option></option>
-                                                    <option value="g1">2000</option>
-                                                    <option value="g2">1999</option>
-                                                    <option value="g3">1998</option>
-                                                    <option value="g4">1997</option>
-                                                    <option value="g5">1996</option>
-                                                    <option value="g6">1995</option>
-                                                    <option value="g7">1994</option>
-                                                    <option value="g8">1993</option>
-                                                    <option value="g9">1992</option>
-                                                    <option value="g10">1991</option>
-                                                    <option value="g11">1990</option>
-                                                    <option value="g12">1989</option>
-                                                </select>
-                                                <label for="ona">Año</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-2">
-                                            <div class="form-material form-material-primary floating">
-                                                <select class="form-control input-sm" id="sexo" name="sexo">
-                                                    <option></option>
-                                                    <option value="c1">Femenino</option>
-                                                    <option value="c2">Masculino</option>
-                                                </select>
-                                                <label for="sexo">Sexo</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-3">
-                                            <div class="form-material form-material-primary floating">
-                                                <input class="form-control input-sm" type="text" id="rfc" name="rfc">
-                                                <label for="rfc">RFC</label>
-                                            </div>
-                                        </div>
-                                    </div>
+<!--                                     <div class="form-group"> -->
+<!--                                         <div class="col-sm-3"> -->
+<!--                                             <div class="form-material form-material-primary floating"> -->
+<!--                                                 <label for="fdn">Fecha de nacimiento</label> -->
+<!--                                             </div> -->
+<!--                                         </div> -->
+<!--                                         <div class="col-sm-1"> -->
+<!--                                             <div class="form-material form-material-primary floating"> -->
+<!--                                                 <select class="form-control input-sm" id="dia_nacimiento" name="dia_nacimiento"> -->
+<!--                                                     <option></option> -->
+<!--                                                     <option value="e1">1</option> -->
+<!--                                                     <option value="e2">2</option> -->
+<!--                                                     <option value="e3">3</option> -->
+<!--                                                     <option value="e4">4</option> -->
+<!--                                                     <option value="e5">5</option> -->
+<!--                                                     <option value="e6">6</option> -->
+<!--                                                     <option value="e7">7</option> -->
+<!--                                                     <option value="e8">8</option> -->
+<!--                                                     <option value="e9">9</option> -->
+<!--                                                     <option value="e10">10</option> -->
+<!--                                                 </select> -->
+<!--                                                 <label for="dia">Día</label> -->
+<!--                                             </div> -->
+<!--                                         </div> -->
+<!--                                         <div class="col-sm-1"> -->
+<!--                                             <div class="form-material form-material-primary floating"> -->
+<!--                                                 <select class="form-control input-sm" id="mes_nacimiento" name="mes_nacimiento"> -->
+<!--                                                     <option></option> -->
+<!--                                                     <option value="f1">1</option> -->
+<!--                                                     <option value="f2">2</option> -->
+<!--                                                     <option value="f3">3</option> -->
+<!--                                                     <option value="f4">4</option> -->
+<!--                                                     <option value="f5">5</option> -->
+<!--                                                     <option value="f6">6</option> -->
+<!--                                                     <option value="f7">7</option> -->
+<!--                                                     <option value="f8">8</option> -->
+<!--                                                     <option value="f9">9</option> -->
+<!--                                                     <option value="f10">10</option> -->
+<!--                                                     <option value="f11">11</option> -->
+<!--                                                     <option value="f12">12</option> -->
+<!--                                                 </select> -->
+<!--                                                 <label for="mes">Mes</label> -->
+<!--                                             </div> -->
+<!--                                         </div> -->
+<!--                                         <div class="col-sm-2"> -->
+<!--                                             <div class="form-material form-material-primary floating"> -->
+<!--                                                 <select class="form-control input-sm" id="anio_nacimiento" name="anio_nacimiento"> -->
+<!--                                                     <option></option> -->
+<!--                                                     <option value="g1">2000</option> -->
+<!--                                                     <option value="g2">1999</option> -->
+<!--                                                     <option value="g3">1998</option> -->
+<!--                                                     <option value="g4">1997</option> -->
+<!--                                                     <option value="g5">1996</option> -->
+<!--                                                     <option value="g6">1995</option> -->
+<!--                                                     <option value="g7">1994</option> -->
+<!--                                                     <option value="g8">1993</option> -->
+<!--                                                     <option value="g9">1992</option> -->
+<!--                                                     <option value="g10">1991</option> -->
+<!--                                                     <option value="g11">1990</option> -->
+<!--                                                     <option value="g12">1989</option> -->
+<!--                                                 </select> -->
+<!--                                                 <label for="ona">Año</label> -->
+<!--                                             </div> -->
+<!--                                         </div> -->
+<!--                                         <div class="col-sm-2"> -->
+<!--                                             <div class="form-material form-material-primary floating"> -->
+<!--                                                 <select class="form-control input-sm" id="sexo" name="sexo"> -->
+<!--                                                     <option></option> -->
+<!--                                                     <option value="c1">Femenino</option> -->
+<!--                                                     <option value="c2">Masculino</option> -->
+<!--                                                 </select> -->
+<!--                                                 <label for="sexo">Sexo</label> -->
+<!--                                             </div> -->
+<!--                                         </div> -->
+<!--                                         <div class="col-sm-3"> -->
+<!--                                             <div class="form-material form-material-primary floating"> -->
+<!--                                                 <input class="form-control input-sm" type="text" id="rfc" name="rfc"> -->
+<!--                                                 <label for="rfc">RFC</label> -->
+<!--                                             </div> -->
+<!--                                         </div> -->
+<!--                                     </div> -->
 
                                     <div class="form-group">
                                         <div class="col-sm-3">
@@ -430,8 +429,8 @@
                                             <div class="form-material form-material-primary floating">
                                                 <select class="form-control input-sm" id="id_nacionalidad" name="id_nacionalidad">
                                                     <option></option>
-                                                    <option value="mex">Mexicano</option>
-                                                    <option value="can">Candiense</option>
+                                                    <option value="1">Mexicano</option>
+                                                    <option value="2">Candiense</option>
                                                 </select>
                                                 <label for="nacionalidad">Nacionalidad</label>
                                             </div>
@@ -586,23 +585,23 @@
                                         <h3 class="block-title">Agregar escolaridad</h3>
                                     </div>
                                     <div class="block-content">
-                                        <form id="frm_usuario_datos_escolaridad" name="frm_usuario_datos_escolaridad" class="form-horizontal push-10-t" action="" method="post">
+                                        <form id="frm_usuario_escolaridad" name="frm_usuario_escolaridad" class="form-horizontal push-10-t" action="" method="post">
 
                                             <div class="form-group">
                                                 <div class="col-sm-6">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="institucion" name="institucion">
+                                                        <select class="form-control input-sm" id="id_institucion" name="id_institucion">
                                                             <option></option>
-                                                            <option value="unam">UNAM</option>
-                                                            <option value="ipn">IPN</option>
-                                                            <option value="uam">UAM</option>
+                                                            <option value="1">UNAM</option>
+                                                            <option value="2">IPN</option>
+                                                            <option value="3">UAM</option>
                                                         </select>
                                                         <label for="institucion">Institución</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="titulo" name="titulo">
+                                                        <select class="form-control input-sm" id="id_titulo_escolaridad" name="id_titulo_escolaridad">
                                                             <option></option>
                                                             <option value="1">Doctorado en XXXXX</option>
                                                             <option value="2">Maestría en XXXXX</option>
@@ -621,58 +620,58 @@
                                                 </div>
                                                 <div class="col-sm-1">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="desde_dia" name="desde_dia">
+                                                        <select class="form-control input-sm" id="dia_desde" name="dia_desde">
                                                             <option></option>
-                                                            <option value="e1">1</option>
-                                                            <option value="e2">2</option>
-                                                            <option value="e3">3</option>
-                                                            <option value="e4">4</option>
-                                                            <option value="e5">5</option>
-                                                            <option value="e6">6</option>
-                                                            <option value="e7">7</option>
-                                                            <option value="e8">8</option>
-                                                            <option value="e9">9</option>
-                                                            <option value="e10">10</option>
+                                                            <option value="01">1</option>
+                                                            <option value="02">2</option>
+                                                            <option value="03">3</option>
+                                                            <option value="04">4</option>
+                                                            <option value="05">5</option>
+                                                            <option value="06">6</option>
+                                                            <option value="07">7</option>
+                                                            <option value="08">8</option>
+                                                            <option value="09">9</option>
+                                                            <option value="10">10</option>
                                                         </select>
                                                         <label for="dia">Día</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="desde_mes" name="desde_mes">
+                                                        <select class="form-control input-sm" id="mes_desde" name="mes_desde">
                                                             <option></option>
-                                                            <option value="f1">1</option>
-                                                            <option value="f2">2</option>
-                                                            <option value="f3">3</option>
-                                                            <option value="f4">4</option>
-                                                            <option value="f5">5</option>
-                                                            <option value="f6">6</option>
-                                                            <option value="f7">7</option>
-                                                            <option value="f8">8</option>
-                                                            <option value="f9">9</option>
-                                                            <option value="f10">10</option>
-                                                            <option value="f11">11</option>
-                                                            <option value="f12">12</option>
+                                                            <option value="01">1</option>
+                                                            <option value="02">2</option>
+                                                            <option value="03">3</option>
+                                                            <option value="04">4</option>
+                                                            <option value="05">5</option>
+                                                            <option value="06">6</option>
+                                                            <option value="07">7</option>
+                                                            <option value="08">8</option>
+                                                            <option value="09">9</option>
+                                                            <option value="10">10</option>
+                                                            <option value="11">11</option>
+                                                            <option value="12">12</option>
                                                         </select>
                                                         <label for="mes">Mes</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="desde_anio" name="desde_anio">
+                                                        <select class="form-control input-sm" id="anio_desde" name="anio_desde">
                                                             <option></option>
-                                                            <option value="g1">2000</option>
-                                                            <option value="g2">1999</option>
-                                                            <option value="g3">1998</option>
-                                                            <option value="g4">1997</option>
-                                                            <option value="g5">1996</option>
-                                                            <option value="g6">1995</option>
-                                                            <option value="g7">1994</option>
-                                                            <option value="g8">1993</option>
-                                                            <option value="g9">1992</option>
-                                                            <option value="g10">1991</option>
-                                                            <option value="g11">1990</option>
-                                                            <option value="g12">1989</option>
+                                                            <option value="2000">2000</option>
+                                                            <option value="1999">1999</option>
+                                                            <option value="1998">1998</option>
+                                                            <option value="1997">1997</option>
+                                                            <option value="1996">1996</option>
+                                                            <option value="1995">1995</option>
+                                                            <option value="1994">1994</option>
+                                                            <option value="1993">1993</option>
+                                                            <option value="1992">1992</option>
+                                                            <option value="1991">1991</option>
+                                                            <option value="1990">1990</option>
+                                                            <option value="1089">1989</option>
                                                         </select>
                                                         <label for="ona">Año</label>
                                                     </div>
@@ -684,58 +683,58 @@
                                                 </div>
                                                 <div class="col-sm-1">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="hasta_dia" name="hasta_dia">
+                                                        <select class="form-control input-sm" id="dia_hasta" name="dia_hasta">
                                                             <option></option>
-                                                            <option value="e1">1</option>
-                                                            <option value="e2">2</option>
-                                                            <option value="e3">3</option>
-                                                            <option value="e4">4</option>
-                                                            <option value="e5">5</option>
-                                                            <option value="e6">6</option>
-                                                            <option value="e7">7</option>
-                                                            <option value="e8">8</option>
-                                                            <option value="e9">9</option>
-                                                            <option value="e10">10</option>
+                                                            <option value="01">1</option>
+                                                            <option value="02">2</option>
+                                                            <option value="03">3</option>
+                                                            <option value="04">4</option>
+                                                            <option value="05">5</option>
+                                                            <option value="06">6</option>
+                                                            <option value="07">7</option>
+                                                            <option value="8">8</option>
+                                                            <option value="9">9</option>
+                                                            <option value="10">10</option>
                                                         </select>
                                                         <label for="dia">Día</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="hasta_mes" name="hasta_mes">
+                                                        <select class="form-control input-sm" id="mes_hasta" name="mes_hasta">
                                                             <option></option>
-                                                            <option value="f1">1</option>
-                                                            <option value="f2">2</option>
-                                                            <option value="f3">3</option>
-                                                            <option value="f4">4</option>
-                                                            <option value="f5">5</option>
-                                                            <option value="f6">6</option>
-                                                            <option value="f7">7</option>
-                                                            <option value="f8">8</option>
-                                                            <option value="f9">9</option>
-                                                            <option value="f10">10</option>
-                                                            <option value="f11">11</option>
-                                                            <option value="f12">12</option>
+                                                            <option value="01">1</option>
+                                                            <option value="02">2</option>
+                                                            <option value="03">3</option>
+                                                            <option value="04">4</option>
+                                                            <option value="05">5</option>
+                                                            <option value="06">6</option>
+                                                            <option value="07">7</option>
+                                                            <option value="08">8</option>
+                                                            <option value="09">9</option>
+                                                            <option value="10">10</option>
+                                                            <option value="11">11</option>
+                                                            <option value="12">12</option>
                                                         </select>
                                                         <label for="mes">Mes</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="hasta_anio" name="hasta_hasta">
+                                                        <select class="form-control input-sm" id="anio_hasta" name="anio_hasta">
                                                             <option></option>
-                                                            <option value="g1">2000</option>
-                                                            <option value="g2">1999</option>
-                                                            <option value="g3">1998</option>
-                                                            <option value="g4">1997</option>
-                                                            <option value="g5">1996</option>
-                                                            <option value="g6">1995</option>
-                                                            <option value="g7">1994</option>
-                                                            <option value="g8">1993</option>
-                                                            <option value="g9">1992</option>
-                                                            <option value="g10">1991</option>
-                                                            <option value="g11">1990</option>
-                                                            <option value="g12">1989</option>
+                                                            <option value="2000">2000</option>
+                                                            <option value="1999">1999</option>
+                                                            <option value="1998">1998</option>
+                                                            <option value="1997">1997</option>
+                                                            <option value="1996">1996</option>
+                                                            <option value="1995">1995</option>
+                                                            <option value="1994">1994</option>
+                                                            <option value="1993">1993</option>
+                                                            <option value="1992">1992</option>
+                                                            <option value="1991">1991</option>
+                                                            <option value="1990">1990</option>
+                                                            <option value="1089">1989</option>
                                                         </select>
                                                         <label for="ona">Año</label>
                                                     </div>
@@ -745,7 +744,7 @@
                                             <div class="form-group">
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="anios" name="anios">
+                                                        <select class="form-control input-sm" id="id_anios" name="id_anios">
                                                             <option></option>
                                                             <option value="1">10</option>
                                                             <option value="2">9</option>
@@ -763,22 +762,22 @@
                                                 </div>
                                                 <div class="col-sm-5">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="documento_obtenido" name="documento_obtenido">
+                                                        <select class="form-control input-sm" id="id_documento_obtenido" name="id_documento_obtenido">
                                                             <option></option>
-                                                            <option value="i1">Título</option>
-                                                            <option value="i2">Cédula</option>
-                                                            <option value="i3">Otro</option>
+                                                            <option value="1">Título</option>
+                                                            <option value="2">Cédula</option>
+                                                            <option value="3">Otro</option>
                                                         </select>
                                                         <label for="doc">Documento obtenido</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-5">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="estatus" name="estatus">
+                                                        <select class="form-control input-sm" id="id_estatus_escolaridad" name="id_estatus_escolaridad">
                                                             <option></option>
-                                                            <option value="b1">Terminado</option>
-                                                            <option value="b2">En curso</option>
-                                                            <option value="b3">Otro</option>
+                                                            <option value="1">Terminado</option>
+                                                            <option value="2">En curso</option>
+                                                            <option value="3">Otro</option>
                                                         </select>
                                                         <label for="estatus">Estatus</label>
                                                     </div>
@@ -787,7 +786,10 @@
 
                                             <div class="form-group">
                                                 <div class="col-xs-12">
-                                                    <button type="button" id="btn_guardar_datos_escolaridad" name="btn_guardar_datos_escolaridad" class="btn btn-sm btn-primary">Guardar</button>
+                                                	<input type="hidden" id="accion" name="accion" value="guardar">
+                                                	<input type="hidden" id="id_u_e" name="id_u_e" value="0">
+                                                	<input type="hidden" id="id_e" name="id_e" value="0">
+                                                    <button type="button" id="btn_guardar_escolaridad" name="btn_guardar_escolaridad" class="btn btn-sm btn-primary">Guardar</button>
                                                     <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
                                                 </div>
                                             </div>
@@ -876,18 +878,18 @@
                                         <h3 class="block-title">Agregar habilidad</h3>
                                     </div>
                                     <div class="block-content">
-                                        <form class="form-horizontal push-10-t" action="#" method="post">
+                                        <form id="frm_usuario_habilidad" name="frm_usuario_habilidad" class="form-horizontal push-10-t" action="" method="post">
 
                                             <div class="form-group">
                                                 <div class="col-sm-6">
                                                     <div class="form-material form-material-primary floating">
-                                                        <input class="form-control input-sm" type="text" id="hab1" name="hab1">
+                                                        <input class="form-control input-sm" type="text" id="habilidad_1" name="habilidad_1">
                                                         <label for="hab1">Habilidad</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="hab2" name="hab2">
+                                                        <select class="form-control input-sm" id="habilidad_2" name="habilidad_2">
                                                             <option></option>
                                                             <option value="1">Conocimiento de las regulaciones estatales y federales</option>
                                                             <option value="2">Administración de información</option>
@@ -901,7 +903,7 @@
                                             <div class="form-group">
                                                 <div class="col-sm-3">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="nivel1" name="nivel1">
+                                                        <select class="form-control input-sm" id="id_nivel" name="id_nivel">
                                                             <option></option>
                                                             <option value="1">Básico</option>
                                                             <option value="2">Intermedio</option>
@@ -912,7 +914,7 @@
                                                 </div>
                                                 <div class="col-sm-3">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="val10" name="val10">
+                                                        <select class="form-control input-sm" id="id_anios" name="id_anios">
                                                             <option></option>
                                                             <option value="1">10</option>
                                                             <option value="2">9</option>
@@ -932,7 +934,10 @@
 
                                             <div class="form-group">
                                                 <div class="col-xs-12">
-                                                    <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
+                                                	<input type="hidden" id="accion" name="accion" value="guardar">
+                                                	<input type="hidden" id="id_u_h" name="id_u_h" value="0">
+                                                	<input type="hidden" id="id_h" name="id_h" value="0">
+                                                    <button type="button" id="btn_guardar_habilidad" name="btn_guardar_habilidad" class="btn btn-sm btn-primary">Guardar</button>
                                                     <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
                                                 </div>
                                             </div>
@@ -1009,18 +1014,18 @@
                                         <h3 class="block-title">Agregar certificación</h3>
                                     </div>
                                     <div class="block-content">
-                                        <form class="form-horizontal push-10-t" action="#" method="post">
+                                        <form id="frm_usuario_certificacion" name="frm_usuario_certificacion" class="form-horizontal push-10-t" action="#" method="post">
 
                                             <div class="form-group">
                                                 <div class="col-sm-5">
                                                     <div class="form-material form-material-primary floating">
-                                                        <input class="form-control input-sm" type="text" id="cer1" name="cer1">
+                                                        <input class="form-control input-sm" type="text" id="certificacion_1" name="certificacion_1">
                                                         <label for="cer1">Certificación</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-5">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="cer2" name="cer2">
+                                                        <select class="form-control input-sm" id="certificacion_2" name="certificacion_2">
                                                             <option></option>
                                                             <option value="1">ITIL</option>
                                                             <option value="2">COBIT 5</option>
@@ -1030,18 +1035,18 @@
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="val10" name="val10">
+                                                        <select class="form-control input-sm" id="id_anio" name="id_anio">
                                                             <option></option>
-                                                            <option value="1">2015</option>
-                                                            <option value="2">2014</option>
-                                                            <option value="3">2013</option>
-                                                            <option value="4">2012</option>
-                                                            <option value="5">2011</option>
-                                                            <option value="6">2010</option>
-                                                            <option value="7">2009</option>
-                                                            <option value="8">2008</option>
-                                                            <option value="9">2007</option>
-                                                            <option value="10">2006</option>
+                                                            <option value="2015">2015</option>
+                                                            <option value="2014">2014</option>
+                                                            <option value="2013">2013</option>
+                                                            <option value="2012">2012</option>
+                                                            <option value="2011">2011</option>
+                                                            <option value="2010">2010</option>
+                                                            <option value="2009">2009</option>
+                                                            <option value="2008">2008</option>
+                                                            <option value="2007">2007</option>
+                                                            <option value="2006">2006</option>
                                                         </select>
                                                         <label for="val10">Año</label>
                                                     </div>
@@ -1050,7 +1055,10 @@
 
                                             <div class="form-group">
                                                 <div class="col-xs-12">
-                                                    <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
+                                                	<input type="hidden" id="accion" name="accion" value="guardar">
+                                                	<input type="hidden" id="id_u_c" name="id_u_c" value="0">
+                                                	<input type="hidden" id="id_c" name="id_c" value="0">
+                                                    <button type="button" id="btn_guardar_certificacion" name="btn_guardar_certificacion" class="btn btn-sm btn-primary">Guardar</button>
                                                     <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
                                                 </div>
                                             </div>
@@ -1124,18 +1132,18 @@
                                         <h3 class="block-title">Agregar curso</h3>
                                     </div>
                                     <div class="block-content">
-                                        <form class="form-horizontal push-10-t" action="#" method="post">
+                                        <form id="frm_usuario_curso" name="frm_usuario_curso" class="form-horizontal push-10-t" action="#" method="post">
 
                                             <div class="form-group">
                                                 <div class="col-sm-6">
                                                     <div class="form-material form-material-primary floating">
-                                                        <input class="form-control input-sm" type="text" id="cur1" name="cur1">
+                                                        <input class="form-control input-sm" type="text" id="curso" name="curso">
                                                         <label for="cur1">Curso</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="cur2" name="cur2">
+                                                        <select class="form-control input-sm" id="id_curso" name="id_curso">
                                                             <option></option>
                                                             <option value="1">Curso en XXXXXXXX</option>
                                                             <option value="2">Curso en XXXXXXXX</option>
@@ -1153,58 +1161,58 @@
                                                 </div>
                                                 <div class="col-sm-1">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="dia1" name="dia1">
+                                                        <select class="form-control input-sm" id="dia_desde" name="dia_desde">
                                                             <option></option>
-                                                            <option value="e1">1</option>
-                                                            <option value="e2">2</option>
-                                                            <option value="e3">3</option>
-                                                            <option value="e4">4</option>
-                                                            <option value="e5">5</option>
-                                                            <option value="e6">6</option>
-                                                            <option value="e7">7</option>
-                                                            <option value="e8">8</option>
-                                                            <option value="e9">9</option>
-                                                            <option value="e10">10</option>
+                                                            <option value="01">1</option>
+                                                            <option value="02">2</option>
+                                                            <option value="03">3</option>
+                                                            <option value="04">4</option>
+                                                            <option value="05">5</option>
+                                                            <option value="06">6</option>
+                                                            <option value="07">7</option>
+                                                            <option value="08">8</option>
+                                                            <option value="09">9</option>
+                                                            <option value="10">10</option>
                                                         </select>
                                                         <label for="dia1">Día</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="mes1" name="mes1">
+                                                        <select class="form-control input-sm" id="mes_desde" name="mes_desde">
                                                             <option></option>
-                                                            <option value="f1">1</option>
-                                                            <option value="f2">2</option>
-                                                            <option value="f3">3</option>
-                                                            <option value="f4">4</option>
-                                                            <option value="f5">5</option>
-                                                            <option value="f6">6</option>
-                                                            <option value="f7">7</option>
-                                                            <option value="f8">8</option>
-                                                            <option value="f9">9</option>
-                                                            <option value="f10">10</option>
-                                                            <option value="f11">11</option>
-                                                            <option value="f12">12</option>
+                                                            <option value="01">1</option>
+                                                            <option value="02">2</option>
+                                                            <option value="03">3</option>
+                                                            <option value="04">4</option>
+                                                            <option value="0f5">5</option>
+                                                            <option value="06">6</option>
+                                                            <option value="07">7</option>
+                                                            <option value="08">8</option>
+                                                            <option value="09">9</option>
+                                                            <option value="10">10</option>
+                                                            <option value="11">11</option>
+                                                            <option value="12">12</option>
                                                         </select>
                                                         <label for="mes1">Mes</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="ona1" name="ona1">
+                                                        <select class="form-control input-sm" id="anio_desde" name="anio_desde">
                                                             <option></option>
-                                                            <option value="g1">2000</option>
-                                                            <option value="g2">1999</option>
-                                                            <option value="g3">1998</option>
-                                                            <option value="g4">1997</option>
-                                                            <option value="g5">1996</option>
-                                                            <option value="g6">1995</option>
-                                                            <option value="g7">1994</option>
-                                                            <option value="g8">1993</option>
-                                                            <option value="g9">1992</option>
-                                                            <option value="g10">1991</option>
-                                                            <option value="g11">1990</option>
-                                                            <option value="g12">1989</option>
+                                                            <option value="01">2000</option>
+                                                            <option value="02">1999</option>
+                                                            <option value="03">1998</option>
+                                                            <option value="04">1997</option>
+                                                            <option value="05">1996</option>
+                                                            <option value="06">1995</option>
+                                                            <option value="07">1994</option>
+                                                            <option value="08">1993</option>
+                                                            <option value="09">1992</option>
+                                                            <option value="10">1991</option>
+                                                            <option value="11">1990</option>
+                                                            <option value="12">1989</option>
                                                         </select>
                                                         <label for="ona1">Año</label>
                                                     </div>
@@ -1216,58 +1224,58 @@
                                                 </div>
                                                 <div class="col-sm-1">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="dia2" name="dia2">
+                                                        <select class="form-control input-sm" id="dia_hasta" name="dia_hasta">
                                                             <option></option>
-                                                            <option value="e1">1</option>
-                                                            <option value="e2">2</option>
-                                                            <option value="e3">3</option>
-                                                            <option value="e4">4</option>
-                                                            <option value="e5">5</option>
-                                                            <option value="e6">6</option>
-                                                            <option value="e7">7</option>
-                                                            <option value="e8">8</option>
-                                                            <option value="e9">9</option>
-                                                            <option value="e10">10</option>
+                                                            <option value="01">1</option>
+                                                            <option value="02">2</option>
+                                                            <option value="03">3</option>
+                                                            <option value="04">4</option>
+                                                            <option value="05">5</option>
+                                                            <option value="06">6</option>
+                                                            <option value="07">7</option>
+                                                            <option value="08">8</option>
+                                                            <option value="09">9</option>
+                                                            <option value="10">10</option>
                                                         </select>
                                                         <label for="dia2">Día</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="mes2" name="mes2">
+                                                        <select class="form-control input-sm" id="mes_hasta" name="mes_hasta">
                                                             <option></option>
-                                                            <option value="f1">1</option>
-                                                            <option value="f2">2</option>
-                                                            <option value="f3">3</option>
-                                                            <option value="f4">4</option>
-                                                            <option value="f5">5</option>
-                                                            <option value="f6">6</option>
-                                                            <option value="f7">7</option>
-                                                            <option value="f8">8</option>
-                                                            <option value="f9">9</option>
-                                                            <option value="f10">10</option>
-                                                            <option value="f11">11</option>
-                                                            <option value="f12">12</option>
+                                                            <option value="01">1</option>
+                                                            <option value="02">2</option>
+                                                            <option value="03">3</option>
+                                                            <option value="04">4</option>
+                                                            <option value="05">5</option>
+                                                            <option value="06">6</option>
+                                                            <option value="07">7</option>
+                                                            <option value="08">8</option>
+                                                            <option value="09">9</option>
+                                                            <option value="10">10</option>
+                                                            <option value="11">11</option>
+                                                            <option value="12">12</option>
                                                         </select>
                                                         <label for="mes2">Mes</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="ona2" name="ona2">
+                                                        <select class="form-control input-sm" id="anio_hasta" name="anio_hasta">
                                                             <option></option>
-                                                            <option value="g1">2000</option>
-                                                            <option value="g2">1999</option>
-                                                            <option value="g3">1998</option>
-                                                            <option value="g4">1997</option>
-                                                            <option value="g5">1996</option>
-                                                            <option value="g6">1995</option>
-                                                            <option value="g7">1994</option>
-                                                            <option value="g8">1993</option>
-                                                            <option value="g9">1992</option>
-                                                            <option value="g10">1991</option>
-                                                            <option value="g11">1990</option>
-                                                            <option value="g12">1989</option>
+                                                            <option value="2000">2000</option>
+                                                            <option value="1999">1999</option>
+                                                            <option value="1998">1998</option>
+                                                            <option value="1997">1997</option>
+                                                            <option value="1996">1996</option>
+                                                            <option value="1995">1995</option>
+                                                            <option value="1994">1994</option>
+                                                            <option value="1993">1993</option>
+                                                            <option value="1992">1992</option>
+                                                            <option value="1991">1991</option>
+                                                            <option value="1990">1990</option>
+                                                            <option value="1989">1989</option>
                                                         </select>
                                                         <label for="ona2">Año</label>
                                                     </div>
@@ -1276,22 +1284,22 @@
                                             <div class="form-group">
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="duracion1" name="duracion1">
+                                                        <select class="form-control input-sm" id="duracion_horas" name="duracion_horas">
                                                             <option></option>
-                                                            <option value="1">120</option>
-                                                            <option value="2">100</option>
-                                                            <option value="3">80</option>
-                                                            <option value="4">60</option>
-                                                            <option value="5">40</option>
-                                                            <option value="6">20</option>
-                                                            <option value="7">10</option>
+                                                            <option value="120">120</option>
+                                                            <option value="100">100</option>
+                                                            <option value="80">80</option>
+                                                            <option value="60">60</option>
+                                                            <option value="40">40</option>
+                                                            <option value="20">20</option>
+                                                            <option value="10">10</option>
                                                         </select>
                                                         <label for="duracion1">Duración (Horas)</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-10">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="imparte" name="imparte">
+                                                        <select class="form-control input-sm" id="id_institucion" name="id_institucion">
                                                             <option></option>
                                                             <option value="1">Institución XXXXXXXX</option>
                                                             <option value="2">Institución XXXXXXXX</option>
@@ -1304,7 +1312,10 @@
 
                                             <div class="form-group">
                                                 <div class="col-xs-12">
-                                                    <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
+                                                	<input type="hidden" id="accion" name="accion" value="guardar">
+                                                	<input type="hidden" id="id_u_cu" name="id_u_cu" value="0">
+                                                	<input type="hidden" id="id_cu" name="id_cu" value="0">
+                                                    <button type="button" id="btn_guardar_curso" name="btn_guardar_curso" class="btn btn-sm btn-primary"">Guardar</button>
                                                     <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
                                                 </div>
                                             </div>
@@ -1387,7 +1398,7 @@
                                         <h3 class="block-title">Agregar experiencia profesional</h3>
                                     </div>
                                     <div class="block-content">
-                                        <form class="form-horizontal push-10-t" action="#" method="post">
+                                        <form id="frm_usuario_experiencia_profesional" name="frm_usuario_experiencia_profesional" class="form-horizontal push-10-t" action="#" method="post">
 
                                             <div class="form-group">
                                                 <div class="col-sm-4">
@@ -1418,58 +1429,58 @@
                                                 </div>
                                                 <div class="col-sm-1">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="dia" name="dia">
+                                                        <select class="form-control input-sm" id="dia_desde" name="dia_desde">
                                                             <option></option>
-                                                            <option value="e1">1</option>
-                                                            <option value="e2">2</option>
-                                                            <option value="e3">3</option>
-                                                            <option value="e4">4</option>
-                                                            <option value="e5">5</option>
-                                                            <option value="e6">6</option>
-                                                            <option value="e7">7</option>
-                                                            <option value="e8">8</option>
-                                                            <option value="e9">9</option>
-                                                            <option value="e10">10</option>
+                                                            <option value="01">1</option>
+                                                            <option value="02">2</option>
+                                                            <option value="03">3</option>
+                                                            <option value="04">4</option>
+                                                            <option value="05">5</option>
+                                                            <option value="06">6</option>
+                                                            <option value="07">7</option>
+                                                            <option value="08">8</option>
+                                                            <option value="09">9</option>
+                                                            <option value="010">10</option>
                                                         </select>
                                                         <label for="dia">Día</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="mes" name="mes">
+                                                        <select class="form-control input-sm" id="mes_desde" name="mes_desde">
                                                             <option></option>
-                                                            <option value="f1">1</option>
-                                                            <option value="f2">2</option>
-                                                            <option value="f3">3</option>
-                                                            <option value="f4">4</option>
-                                                            <option value="f5">5</option>
-                                                            <option value="f6">6</option>
-                                                            <option value="f7">7</option>
-                                                            <option value="f8">8</option>
-                                                            <option value="f9">9</option>
-                                                            <option value="f10">10</option>
-                                                            <option value="f11">11</option>
-                                                            <option value="f12">12</option>
+                                                            <option value="01">1</option>
+                                                            <option value="02">2</option>
+                                                            <option value="03">3</option>
+                                                            <option value="04">4</option>
+                                                            <option value="05">5</option>
+                                                            <option value="06">6</option>
+                                                            <option value="07">7</option>
+                                                            <option value="08">8</option>
+                                                            <option value="09">9</option>
+                                                            <option value="010">10</option>
+                                                            <option value="011">11</option>
+                                                            <option value="012">12</option>
                                                         </select>
                                                         <label for="mes">Mes</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="ona" name="ona">
+                                                        <select class="form-control input-sm" id="anio_desde" name="anio_desde">
                                                             <option></option>
-                                                            <option value="g1">2000</option>
-                                                            <option value="g2">1999</option>
-                                                            <option value="g3">1998</option>
-                                                            <option value="g4">1997</option>
-                                                            <option value="g5">1996</option>
-                                                            <option value="g6">1995</option>
-                                                            <option value="g7">1994</option>
-                                                            <option value="g8">1993</option>
-                                                            <option value="g9">1992</option>
-                                                            <option value="g10">1991</option>
-                                                            <option value="g11">1990</option>
-                                                            <option value="g12">1989</option>
+                                                            <option value="2000">2000</option>
+                                                            <option value="1999">1999</option>
+                                                            <option value="1998">1998</option>
+                                                            <option value="1997">1997</option>
+                                                            <option value="1996">1996</option>
+                                                            <option value="1995">1995</option>
+                                                            <option value="1994">1994</option>
+                                                            <option value="1993">1993</option>
+                                                            <option value="1992">1992</option>
+                                                            <option value="1991">1991</option>
+                                                            <option value="1990">1990</option>
+                                                            <option value="1989">1989</option>
                                                         </select>
                                                         <label for="ona">Año</label>
                                                     </div>
@@ -1481,58 +1492,58 @@
                                                 </div>
                                                 <div class="col-sm-1">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="dia" name="dia">
+                                                        <select class="form-control input-sm" id="dia_hasta" name="dia_hasta">
                                                             <option></option>
-                                                            <option value="e1">1</option>
-                                                            <option value="e2">2</option>
-                                                            <option value="e3">3</option>
-                                                            <option value="e4">4</option>
-                                                            <option value="e5">5</option>
-                                                            <option value="e6">6</option>
-                                                            <option value="e7">7</option>
-                                                            <option value="e8">8</option>
-                                                            <option value="e9">9</option>
-                                                            <option value="e10">10</option>
+                                                            <option value="01">1</option>
+                                                            <option value="02">2</option>
+                                                            <option value="03">3</option>
+                                                            <option value="04">4</option>
+                                                            <option value="05">5</option>
+                                                            <option value="06">6</option>
+                                                            <option value="07">7</option>
+                                                            <option value="08">8</option>
+                                                            <option value="09">9</option>
+                                                            <option value="010">10</option>
                                                         </select>
                                                         <label for="dia">Día</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="mes" name="mes">
+                                                        <select class="form-control input-sm" id="mes_hasta" name="mes_hasta">
                                                             <option></option>
-                                                            <option value="f1">1</option>
-                                                            <option value="f2">2</option>
-                                                            <option value="f3">3</option>
-                                                            <option value="f4">4</option>
-                                                            <option value="f5">5</option>
-                                                            <option value="f6">6</option>
-                                                            <option value="f7">7</option>
-                                                            <option value="f8">8</option>
-                                                            <option value="f9">9</option>
-                                                            <option value="f10">10</option>
-                                                            <option value="f11">11</option>
-                                                            <option value="f12">12</option>
+                                                            <option value="01">1</option>
+                                                            <option value="02">2</option>
+                                                            <option value="03">3</option>
+                                                            <option value="04">4</option>
+                                                            <option value="05">5</option>
+                                                            <option value="06">6</option>
+                                                            <option value="07">7</option>
+                                                            <option value="08">8</option>
+                                                            <option value="09">9</option>
+                                                            <option value="10">10</option>
+                                                            <option value="11">11</option>
+                                                            <option value="12">12</option>
                                                         </select>
                                                         <label for="mes">Mes</label>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-2">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="ona" name="ona">
+                                                        <select class="form-control input-sm" id="anio_hasta" name="anio_hasta">
                                                             <option></option>
-                                                            <option value="g1">2000</option>
-                                                            <option value="g2">1999</option>
-                                                            <option value="g3">1998</option>
-                                                            <option value="g4">1997</option>
-                                                            <option value="g5">1996</option>
-                                                            <option value="g6">1995</option>
-                                                            <option value="g7">1994</option>
-                                                            <option value="g8">1993</option>
-                                                            <option value="g9">1992</option>
-                                                            <option value="g10">1991</option>
-                                                            <option value="g11">1990</option>
-                                                            <option value="g12">1989</option>
+                                                            <option value="2000">2000</option>
+                                                            <option value="1999">1999</option>
+                                                            <option value="1998">1998</option>
+                                                            <option value="1998">1998</option>
+                                                            <option value="1996">1996</option>
+                                                            <option value="1995">1995</option>
+                                                            <option value="1994">1994</option>
+                                                            <option value="1993">1993</option>
+                                                            <option value="1992">1992</option>
+                                                            <option value="1991">1991</option>
+                                                            <option value="1990">1990</option>
+                                                            <option value="1989">1989</option>
                                                         </select>
                                                         <label for="ona">Año</label>
                                                     </div>
@@ -1550,11 +1561,13 @@
 
                                             <div class="form-group">
                                                 <div class="col-xs-12">
-                                                    <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
+                                                	<input type="hidden" id="accion" name="accion" value="guardar">
+                                                	<input type="hidden" id="id_u_e_p" name="id_u_e_p" value="0">
+                                                	<input type="hidden" id="id_e_p" name="id_e_p" value="0">
+                                                    <button type="button" id="btn_guardar_experiencia_profesional" name="btn_guardar_experiencia_profesional" class="btn btn-sm btn-primary">Guardar</button>
                                                     <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
                                                 </div>
                                             </div>
-
                                         </form>
                                     </div>
                                 </div>
@@ -1650,12 +1663,12 @@
                                         <h3 class="block-title">Agregar área de experiencia</h3>
                                     </div>
                                     <div class="block-content">
-                                        <form class="form-horizontal push-10-t" action="#" method="post">
+                                        <form id="frm_usuario_area_experiencia" name="frm_usuario_area_experiencia" class="form-horizontal push-10-t" action="#" method="post">
 
                                             <div class="form-group">
                                                 <div class="col-sm-4">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="area1" name="area1">
+                                                        <select class="form-control input-sm" id="id_area" name="id_area">
                                                             <option></option>
                                                             <option value="1">Administrativos</option>
                                                         </select>
@@ -1664,7 +1677,7 @@
                                                 </div>
                                                 <div class="col-sm-4">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="subarea1" name="subarea1">
+                                                        <select class="form-control input-sm" id="id_subarea" name="id_subarea">
                                                             <option></option>
                                                             <option value="1">Administración de oficina</option>
                                                             <option value="2">Administración de riesgo</option>
@@ -1676,7 +1689,7 @@
                                                 </div>
                                                 <div class="col-sm-4">
                                                     <div class="form-material form-material-primary floating">
-                                                        <select class="form-control input-sm" id="tiempo1" name="tiempo1">
+                                                        <select class="form-control input-sm" id="id_tiempo" name="id_tiempo">
                                                             <option></option>
                                                             <option value="1">Menos de 1 año</option>
                                                             <option value="2">De 1 a 3 años</option>
@@ -1692,7 +1705,10 @@
 
                                             <div class="form-group">
                                                 <div class="col-xs-12">
-                                                    <button class="btn btn-sm btn-primary" type="submit">Guardar</button>
+                                                	<input type="hidden" id="accion" name="accion" value="guardar">
+                                                	<input type="hidden" id="id_u_a_e" name="id_u_a_e" value="0">
+                                                	<input type="hidden" id="id_a_e" name="id_a_e" value="0">
+                                                    <button type="button" id="btn_guardar_area_experiencia" name="btn_guardar_area_experiencia" class="btn btn-sm btn-primary">Guardar</button>
                                                     <button class="btn btn-sm btn-default" type="reset">Cancelar</button>
                                                 </div>
                                             </div>
